@@ -12,7 +12,8 @@
 .card{
     background: linear-gradient(90deg, rgba(140,176,255,0.8) 0%, rgba(140,176,255,0.64) 44%, rgba(140,176,255,0.69) 100%);  
     /* background: #ecf2ff; */
-    border-radius: 60px;
+    border-radius: 1.5rem;
+    width: 15rem;
     border: none; 
 }
 

@@ -13,7 +13,7 @@ def login_page(request):
             return redirect('index')
         else:
             messages.error(request, ("Invalid Id or password, Try Again!"))
-            return redirect('login')
+            return redirect('dashboard')
           
     else:
         return render(request, 'employee/login.html', {})
